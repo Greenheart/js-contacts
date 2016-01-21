@@ -1,0 +1,25 @@
+body {
+  background-color: #eee;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 70vw;
+  max-width: 650px;
+}
+
+#controls {
+  width: 40%;
+  float: left;
+  text-align: center;
+}
+
+#list {
+  margin-top: 5vh;
+  width: 50%;
+  float: right;
+}
+
+.contact button {
+  float: right;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contacts App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body onload="startApp();">  <!-- <<<< The onload-attribute is what make this app work -->
+    <div class="wrapper">
+      <div id="controls">
+        <h1>Contacts App</h1>
+        <h4>Using local storage</h4>
+
+        <!-- the onclick-attribute makes binds the function to the click event-->
+        <button onclick="getNewContact();">Add New Contact</button>
+
+      </div>
+
+      <div id="list">
+        <!-- This is where the contacts are displayed -->
+      </div>
+    </div>
+  </body>
+  <script src="contacts.js"></script>
+</html>

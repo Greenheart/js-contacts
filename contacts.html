@@ -17,7 +17,16 @@
       </div>
 
       <div id="list">
+        <!-- TODO: http://webcomponents.org/articles/introduction-to-template-element/ -->
         <!-- This is where the contacts are displayed -->
+
+        <template id="contact">
+          <p class="contact">
+            <span class="name"></span> - <span class="phone"></span>
+            <button onclick="deleteContact(this);">Delete</button>
+          </p>
+        </template>
+
       </div>
     </div>
   </body>

@@ -22,4 +22,5 @@ body {
 
 .contact button {
   float: right;
+  margin-top: -5px;
 }
